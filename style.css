@@ -9,8 +9,7 @@
   color:rgba(16, 141, 214, 0.959);
 }
 .hero-tagline {
-  color:rgba(16, 141, 214, 0.959);
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .intro-icon {
@@ -66,4 +65,23 @@
   #footer-links-container ul {
     padding-left: 30px !important;
   }
+}
+.form{
+  margin-top:1rem;
+  margin-left:4rem 
+}
+.border{
+  border-style:solid;
+  width:350px;
+  padding-bottom:20px;
+}
+@media (max-width: 400px) {
+  .border{
+    border-style:solid;
+    width:250px;
+    padding-bottom:20px;
+  }
+  .form{
+    margin-top:1rem;
+    margin-left:2rem 
 }
